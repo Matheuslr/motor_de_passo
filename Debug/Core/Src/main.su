@@ -2,7 +2,7 @@
 ../Core/Src/main.c:24:6:move_anticlockwise	24	static
 ../Core/Src/main.c:71:6:move_clockwise	24	static
 ../Core/Src/main.c:118:5:main	16	static
-../Core/Src/main.c:152:6:SystemClock_Config	72	static
-../Core/Src/main.c:191:13:MX_TIM1_Init	32	static
-../Core/Src/main.c:237:13:MX_GPIO_Init	32	static
-../Core/Src/main.c:265:6:Error_Handler	4	static,ignoring_inline_asm
+../Core/Src/main.c:161:6:SystemClock_Config	72	static
+../Core/Src/main.c:200:13:MX_TIM1_Init	32	static
+../Core/Src/main.c:246:13:MX_GPIO_Init	32	static
+../Core/Src/main.c:274:6:Error_Handler	4	static,ignoring_inline_asm

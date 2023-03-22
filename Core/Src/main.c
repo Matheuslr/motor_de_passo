@@ -127,17 +127,26 @@ int main(void)
   int i;
   while (1)
     {
+	  for(i = 0; i <= 5; i++){
+		  move_anticlockwise(256,1000); //256 - meio giro
+		  move_clockwise(128, 1000); //128 - 1/4 de giro
+		  microDelay(1000);
+	  }
   	  for(i = 0; i <= 5; i++){
-  		move_clockwise(512, 1000);
+  		  move_clockwise(512, 1000); //512 - giro completo
+  		  microDelay(1000);
   	  }
   	  for(i = 0; i <= 5; i++){
   		  move_clockwise(512, 5000);
+  		  microDelay(1000);
   	  }
   	  for(i = 0; i <= 5; i++){
   		  move_clockwise(512, 10000);
+  		  microDelay(1000);
   	  }
   	  for(i = 0; i <= 5; i++){
   		  move_clockwise(512, 20000);
+  		  microDelay(1000);
   	  }
 
   	  microDelay(1000);
